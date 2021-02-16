@@ -1,0 +1,18 @@
+.p1{
+    font-family: Arial; //семейство шрифтов
+}
+.p2{
+    font-size: 28px; //размер шрифта
+}
+.p3{
+    font-style: italic; //начертание (курсив)
+}
+.p4{
+    font-weight: bold; //плотность (жирный)
+}
+.p5{
+    font-variant: small-caps; //малые заглавные буквы (каптиль)
+}
+.p6{
+    font: bold italic 26px Arial; //указание показателей в одном свойстве
+}
