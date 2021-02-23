@@ -4,45 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico" rel="stylesheet">
     <!-- Подключили шрифт -->
     <link rel="stylesheet" href="Teachers.css">
 </head>
 <body>
-<section>
+<section class = "wrapper">
+
     <section class = "teacher">
     <img src = "Images_Teachers/Merculova.jpg" alt="" scrset="">
-    <p> <a href = ""> Меркулова Тамара Вікторівна </a></p>
-    <p>зав.каф., професор, д.е.н.  </p>
+    <p class = "qt"> <a href = ""> Меркулова Тамара Вікторівна </a></p> <!-- href - это ссылка-->
     </section>
+
     <section class = "teacher">
     <img src = "Images_Teachers/Jancev.jpg">
-    <p><a href = ""> Янцевич Артем Артемович </a> </p>
-    <p>професор, д.ф.-м.н.  </p>
+    <p class = "pt"><a href = ""> Янцевич Артем Артемович </a> </p>  <!-- class - это то, что написано в css, оттуда вытягиваем-->
     </section>
+
     <section class = "teacher">
     <img src = "Images_Teachers/Nosova.jpg">
-    <p><a href = ""> Носова Ольга Валентинівна </a> </p>
-    <p>професор, д.е.н.  </p>
+    <p class = "ct"><a href = ""> Носова Ольга Валентинівна </a> </p>
     </section>
-</section> 
+
+<!--</section> -->
 <!-- чтобы по 3 было в строке - в секшены объединяем по три имени и фото -->
-<section>
+<!-- <section class = "wrapper"> А если эти закооменченые section оставить, то по 3 будет при ширине 1200px (так красивее даже)-->
+
     <section class = "teacher">
-    <img src = "Images_Teachers/Danich.jpg" width = "190" height = "243">
-    <p><a href = ""> Даніч Віталій Миколайович </a></p>
-    <p>професор, д.е.н.  </p>
+    <img src = "Images_Teachers/Danich.jpg" width = "190" height = "243">  <!--  тут решил прям в html прописать-->
+    <p  class = "ct"><a href = ""> Даніч Віталій Миколайович </a></p>
     </section>
+
     <section class = "teacher">
     <img src = "Images_Teachers/konon.jpg" width = "190" height = "243">
-    <p><a href = ""> Кононова Катерина Юріївна </a> </p>
-    <p>професор, д.е.н.  </p>
+    <p  class = "ct"><a href = ""> Кононова Катерина Юріївна </a> </p>
     </section>
+
     <section class = "teacher">
     <img src = "Images_Teachers/Bitkova.jpg" width = "190" height = "243">
-    <p><a href = ""> Біткова Тетяна Вікторівна </a></p>
-    <p>доцент, к.е.н.  </p>
+    <p class = "bt"> <a href = ""> Біткова Тетяна Вікторівна </a></p>
     </section>
+
 </section>
 </body>
 </html>
