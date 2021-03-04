@@ -3,6 +3,14 @@
     padding: 0; /* обнулили отступы */
     box-sizing: border-box;  /* */
 }
+
+.font{
+    font-family: Arial;
+}
+
+.background{
+    background-color:rgba(255, 255, 255, 0.938)
+}
 .wrapper {
     width: 1000px;
     top: 50px;
@@ -24,75 +32,118 @@
     }
 .MyName{
     margin-top: 72px;
-    margin-left: 34px;
+    margin-left: 15px;
     font-family: Arial;
     font-size: 45px;
     width:500px;
-}
-.blackTitle{
-    color:black;
-}
-.leftHeader{
-    width:389px;
-    height:100%;
-    background-color:darkblue;
-    margin-left:40px;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    /*-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);*/  /* Это обводочка букв, если нужно */
 }
 
-.main{
+
+.MyDate
+{
+    margin-top: 2px;
+    margin-left: 15px;
+    font-family: Arial;
+    font-size: 25px;
+    width:500px;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+}
+
+.blackTitle{
+    color:rgba(30, 87, 192, 0.589);
+    text-shadow: none;
+}
+.leftHeader{  /* under the naame and date*/
+    width:369px;
+    height:100%;
+    background-color:rgba(30, 87, 192, 0.589);
+    margin-left:46px;
+}
+
+.main{    /* all resume block */
     display: flex;
 }
 
+.leftSide{  /* the blue block */
+    height: 800px;
+    }
+
 .leftSideBlocks{
-    margin-left:40px;
-    width:389px;
-    background-color: darkblue;
+    margin-left:46px;
+    width:369px;
+    /*height: 200px;*/
+    background-color: rgba(30, 87, 192, 0.589);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);  
     padding: 10px;
     height: 100%;
 
 }
+
+.leftSideP{
+    margin: 15px; 
+    line-height: 20px; /* space between the lines*/
+    text-align: center;
+    }
+
 .image{
-        width: 320px;
-        height: 400px;
+        width: 369px;
+        height: 463px;
         position: relative;
         top: -50px;
+
     }
 
 
 .article{
-    padding: 40px;
+    padding: 30px;   /* Свойство padding устанавливает внутренние отступы/поля со всех сторон элемента */ 
+    margin: auto;
+    text-align: left;
+   /*display: flex;
+    flex-direction: column*/
+    position: relative;
+    bottom: 40px;
 }
 
-.bottom {
+.margin{
 
-        margin-bottom: 0px;
-        height:50px;
-        background: #000000;
-        left: 200px;
-        display: flex;
-        justify-content: flex-end;
-    }
+    margin: 2px;
+}
 
+.headerArticle{
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+.headerText{
+    margin-top: 5px;
+    line-height: 23px;
+    font-weight: normal;
+}
 
 .line {
     width: 2px; 
     height: 180px;
-    background: rgb(4, 16, 27);
+    background: rgb(30, 87, 192, 0.589);
     position: absolute;
     top: 1px;
     right: 200px;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
     }
 
 .cube {
         width: 50px; 
         height: 50px;
-        background: rgb(4, 16, 27);
+        background:rgb(30, 87, 192, 0.589);
         position: absolute;
         top: 220px;
         right: 0px;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
         }   
