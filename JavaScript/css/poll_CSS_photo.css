@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 54b2cafb795c32a505a72691139f6934d0412a19
 body{   /* без точки задаём сразу всем таким обозначениям св-ва (тут body, но можно и с р так делать, h1 ..  */
     background: url(../img/beyonce.jpg) no-repeat; /*что фон не накладывается второй раз при увеличении экрана*/
     background-size: inherit; /*contain - закрепит, а это относительно двигается. Cover - по размеру окна всегда картинку форматирует*/
@@ -27,6 +31,26 @@ p {
 
 .picture{
     height: 1000px;
+<<<<<<< HEAD
+=======
+=======
+
+.wrapper{
+    margin:0 auto;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 12px;
+}
+.picture{
+    height: 50px;
+>>>>>>> 9771cab0b0d69635742ec48df6e6e3e73e86c78b
+>>>>>>> 54b2cafb795c32a505a72691139f6934d0412a19
 }
 
 .right{
@@ -42,6 +66,10 @@ p {
 .hidden{
     display: none;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 54b2cafb795c32a505a72691139f6934d0412a19
 
 .answ{
     display: flex;
@@ -54,10 +82,19 @@ p {
     -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9771cab0b0d69635742ec48df6e6e3e73e86c78b
+>>>>>>> 54b2cafb795c32a505a72691139f6934d0412a19
 #btn1{
     background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
 }
 .opend{
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 54b2cafb795c32a505a72691139f6934d0412a19
     background-color: rgba(138, 255, 70, 0.705);
 }
 
@@ -91,4 +128,12 @@ p {
   }
   .btn1:active {
     top: 1px;
+<<<<<<< HEAD
   }
+=======
+  }
+=======
+    background-color: skyblue;
+}
+>>>>>>> 9771cab0b0d69635742ec48df6e6e3e73e86c78b
+>>>>>>> 54b2cafb795c32a505a72691139f6934d0412a19
