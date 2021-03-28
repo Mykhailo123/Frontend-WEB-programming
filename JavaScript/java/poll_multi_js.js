@@ -109,9 +109,9 @@ function f_out2 ()
           
           btn2.classList.add("hidden");
           btn3.classList.add("hidden");  
-          let el1 = document.createElement("p");
+          /*let el1 = document.createElement("p");
           el1.innerHTML = "<b>"+right_answers+"</b>";
-          right_div.appendChild(el1);
+          right_div.appendChild(el1);*/
 
         }
 }
