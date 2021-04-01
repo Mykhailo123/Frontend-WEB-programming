@@ -1,0 +1,18 @@
+.wrapper{
+    margin: 25px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(14, 163, 250, 0.397);
+    border-radius: 35px;
+    text-align: center;
+}
+
+.res{
+font-size: 17px;
+}
+
+#btn{
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+}
+
