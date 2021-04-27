@@ -1,0 +1,15 @@
+[
+{"type":"header","version":"5.1.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"query"},
+{"type":"table","name":"query","database":"query","data":
+[
+{"id":"1","title_arr":"Know the Queen! 😀👑 Q 1\/7","question_arr":"When Beyoncé Giselle Knowles-Carter was born?","a1_arr":"September 14, 1975","a2_arr":"October 10, 1985","a3_arr":"September 4","a4_arr":"May 9, 1945","answer_arr":"September 4, 1981","n_right_answer_arr":"3"},
+{"id":"2","title_arr":"Know the Queen! 😀👑 Q 2\/7","question_arr":"Who run the world? 🌍","a1_arr":"Boys (No)","a2_arr":"Toys (No)","a3_arr":"Girls! (Yes)","a4_arr":"Masons (Maybe)","answer_arr":"Girls!","n_right_answer_arr":"3"},
+{"id":"3","title_arr":"Know the Queen! 😀👑 Q 3\/7","question_arr":"How many Grammys does the Queen B have?","a1_arr":"28","a2_arr":"79","a3_arr":"31","a4_arr":"A lot!","answer_arr":"qrt(256) + 12","n_right_answer_arr":"1"},
+{"id":"4","title_arr":"Know the Queen! 😀👑 Q 4\/7","question_arr":"Who said these famous words: 'We shine the light on whatever's worst, perfection is a disease of a nation.'","a1_arr":"William Shakespeare","a2_arr":"Bey","a3_arr":"Alla Pugachova","a4_arr":"Some wise person","answer_arr":"Like, three guesses 'WHO?","n_right_answer_arr":"2"},
+{"id":"5","title_arr":"Know the Queen! 😀👑 Q 5\/7","question_arr":"What is Beyonce's last song?","a1_arr":"BLACK PARADE","a2_arr":"APESHIT","a3_arr":"BROWN SKIN GIRL","a4_arr":"***Flawless","answer_arr":"BLACK PARADE","n_right_answer_arr":"1"},
+{"id":"6","title_arr":"Know the Queen! 😀👑 Q 6\/7","question_arr":"What is the name of her last feat?","a1_arr":"Beyoncé - Flawless (Remix) ft. Nicki Minaj","a2_arr":"Beyoncé - Drunk in Love (Explicit) ft. JAY Z","a3_arr":"Megan Thee Stallion - Savage Remix (feat. Beyoncé)","a4_arr":"Beautiful Liar - Beyonce & Shakira","answer_arr":"'Savage' with Megan Thee Stallion 🐴","n_right_answer_arr":"3"},
+{"id":"7","title_arr":"Know the Queen! 😀👑 Q 7\/7","question_arr":"How many children does Beyoncé have?","a1_arr":"1","a2_arr":"2","a3_arr":"3","a4_arr":"4","answer_arr":"Blue Ivy Carter, Rumi, and Sir","n_right_answer_arr":"3"}
+]
+}
+]
